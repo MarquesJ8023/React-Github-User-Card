@@ -36,7 +36,6 @@ class App extends React.Component {
     console.log(this.state);
     return (
       <div>
-        <h1>Users</h1>
         {this.state.followers.map(follower => (<h1>{follower.login}</h1>))}
       </div>
     );
